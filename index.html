@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookshelf</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2 >Bookshelf</h2>
+    <div class="search-content">
+        <input class="input-search"  type="text" placeholder="search your book . . .">
+    </div>
+    
+    <div class="result">
+    </div>
+
+    <div class="container">
+
+        <!-- about book -->
+        <div class="about-book">
+            <h3>Book</h3>
+            <div class="content-book">
+                
+                <!-- content -->
+                <div class="input title">
+                    <label for="">Title</label><br>
+                    <input class="input-title" type="text" required>
+                </div>
+                <div class="input author">
+                    <label for="">Author</label><br>
+                    <input class="input-author" type="text">
+                </div>
+                <div class="input year">
+                    <label for="">year</label><br>
+                    <input class="input-year" type="text">
+                </div>
+
+                <!-- status -->
+                <div class="status-book">
+                    <label for="">Read</label><br>
+                    <input class="status-read" type="checkbox" name="" id="">
+                </div>
+
+                <button class="btn-add">Add Book</button>
+            </div>
+        </div>
+
+        <!-- read book content -->
+        <div class="read-book">
+            <h3>Read Book</h3>
+            <div class="list-book">
+            </div>
+        </div>
+
+        <!-- unread book content -->
+        <div class="unread-book">
+            <h3>Unread book</h3>
+            <div class="list-book">
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
